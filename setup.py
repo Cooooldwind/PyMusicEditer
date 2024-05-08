@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     classifiers=[
         # 发展时期
-        # 'Development Status :: 3 - Alpha',
+        'Development Status :: 3 - Alpha',
         # 'Development Status :: 4 - Beta',
         # 'Development Status :: 5 - Production/Stable',
         # 开发的目标用户
@@ -29,8 +29,8 @@ setup(
         "Programming Language :: Python :: 3.12",
     ],
     name="py_music_editer",
-    version="",
-    description="",
+    version="0.1.0.alpha24050801",
+    description="提供主流音乐文件数据与属性管理，读取与修改，以及工具集的Python库。",
     author="CooooldWind_",
     url="https://gitee.com/CooooldWind/PyMusicEditer",
     packages=find_packages(),
